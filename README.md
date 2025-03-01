@@ -26,9 +26,9 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='https://i.imgur.com/RTq89mF.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='./src//assets//images/multiplayer-games-board.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-GIF created with Chrome Capture - screenshot & GIF
+GIF created with [Chrome Capture - screenshot & GIF](https://chromewebstore.google.com/detail/chrome-capture-screenshot/ggaabchcecdbomdcnbahdfddfikjmphe)
 
 ## Notes
 
