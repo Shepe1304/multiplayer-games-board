@@ -31,14 +31,14 @@
 }
 
 .app--title {
-  font-family: "Bungee Spice", serif;
+  font-family: "Bungee Spice", sans-serif;
   font-size: 5rem;
   text-align: center;
   margin-top: 0.5em;
 }
 
 .app--subtitle {
-  font-family: "Bungee", serif;
+  font-family: "Bungee", sans-serif;
   color: rgb(208, 208, 208);
   font-size: 2.25rem;
   text-align: center;
@@ -97,14 +97,14 @@
 
 @media (max-width: 1200px) {
   .app--title {
-    font-family: "Bungee Spice", serif;
+    font-family: "Bungee Spice", sans-serif;
     font-size: 3rem;
     text-align: center;
     margin-top: 0.5em;
   }
 
   .app--subtitle {
-    font-family: "Bungee", serif;
+    font-family: "Bungee", sans-serif;
     color: rgb(208, 208, 208);
     font-size: 2rem;
     text-align: center;
