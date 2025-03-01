@@ -1,0 +1,138 @@
+.app {
+  position: relative;
+  color: white;
+}
+
+.app--background {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.app--background_darkener {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.app--background img {
+  width: 100%;
+  height: 100%;
+}
+
+.app--titles {
+  text-align: center;
+}
+
+.app--title {
+  font-family: "Bungee Spice", serif;
+  font-size: 5rem;
+  text-align: center;
+  margin-top: 0.5em;
+}
+
+.app--subtitle {
+  font-family: "Bungee", serif;
+  color: rgb(208, 208, 208);
+  font-size: 2.25rem;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.app--filters {
+  max-width: 100%;
+  overflow-x: auto;
+  display: flex;
+  gap: 1em;
+  font-family: "Fredoka";
+  justify-content: flex-start;
+  font-size: 1.15rem;
+  padding: 0.5em 1em;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  scrollbar-width: none;
+}
+
+.app--filter {
+  min-width: 8em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  padding: 0.3em 0.5em;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.app--filter:hover {
+  box-shadow: 0 0 10px rgb(153, 153, 153);
+}
+
+.app--selected_filter {
+  background-color: white;
+  color: black;
+}
+
+.app--cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, auto);
+  justify-content: center;
+  align-items: center;
+  gap: 2.5em;
+  margin-bottom: 5em;
+  margin-top: 3em;
+  padding: 0 5em;
+}
+
+@media (max-width: 1200px) {
+  .app--title {
+    font-family: "Bungee Spice", serif;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 0.5em;
+  }
+
+  .app--subtitle {
+    font-family: "Bungee", serif;
+    color: rgb(208, 208, 208);
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1em;
+  }
+
+  .app--cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, auto);
+    justify-content: center;
+    align-items: center;
+    gap: 2.5em;
+    margin-bottom: 5em;
+    margin-top: 3em;
+    padding: 0 3em;
+  }
+}
+
+@media (max-width: 800px) {
+  .app--cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5em;
+    margin-bottom: 5em;
+    margin-top: 3em;
+    padding: 0 3em;
+  }
+}

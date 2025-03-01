@@ -1,0 +1,57 @@
+.card {
+  position: relative;
+  height: 28em;
+  border: 3px solid white;
+  border-radius: 8px;
+  background-color: rgba(208, 0, 90, 0.5);
+  box-shadow: 0 0 10px rgb(172, 172, 172);
+  font-family: "Fredoka", serif;
+  overflow: hidden;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.card--image {
+  width: 100%;
+  height: 50%;
+  border-bottom: 2px solid white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.card--image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card--text {
+  text-align: center;
+  padding: 0.5em;
+}
+
+.card--name {
+  font-family: "Fredoka", serif;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #f0a004;
+}
+
+.card--description {
+  color: rgb(227, 227, 227);
+}
+
+.card--tags {
+  position: absolute;
+  bottom: 1em;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.25em 0.5em;
+  padding: 1em 1em 0 1em;
+}
+
+.card--tag {
+  color: rgb(127, 127, 127);
+}
